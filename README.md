@@ -1,18 +1,11 @@
-[![Downloads](https://static.pepy.tech/badge/chatbotai)](https://pepy.tech/project/chatbotai)
-[![PyPI version](https://badge.fury.io/py/chatbotAI.svg)](https://badge.fury.io/py/chatbotAI)
-![Upload Python Package](https://github.com/ahmadfaizalbh/Chatbot/workflows/Upload%20Python%20Package/badge.svg)
-[![CodeQL](https://github.com/ahmadfaizalbh/Chatbot/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/ahmadfaizalbh/Chatbot/actions/workflows/codeql-analysis.yml)
-
-# ChatBotAI
+# Chatbot
 Python chatbot AI that helps in creating a python based chatbot with
 minimal coding. This provides both bots AI and chat handler and also
 allows easy integration of REST API's and python function calls which
 makes it unique and more powerful in functionality. This AI provides
 numerous features like learn, memory, conditional switch, topic-based
 conversation handling, etc.
-
-
-![Demo GUI](https://raw.githubusercontent.com/ahmadfaizalbh/Chatbot/master/images/demo_gui.gif)
+<!--- {% raw %} -->
 
 ![Demo](https://raw.githubusercontent.com/ahmadfaizalbh/Chatbot/master/images/demo.gif)
 ![Clothing assistance](https://raw.githubusercontent.com/ahmadfaizalbh/Chatbot/master/images/clothing.gif)
@@ -109,7 +102,6 @@ In think mode
 ```
 
 ## Get matched group
-for grouping in regex refer [Python regular expression docs](https://docs.python.org/3/howto/regex.html#non-capturing-and-named-groups)
 #### Get N<sup>th</sup> matched group of client pattern
 ```
 %N
@@ -118,31 +110,14 @@ Example to get first matched
 ```
 %1
 ```
-#### Get matching named group of client pattern
-```
-%Client_pattern_group_name
-```
-Example to get matching named group `person`
-```
-%person
-```
 
-#### Get N<sup>th</sup> matched group of bots message pattern
+#### Get N<sup>th</sup> matched group of bots pattern
 ```
 %!N
 ```
 Example to get first matched
 ```
 %!1
-```
-
-#### Get matching named group of bots message pattern
-```
-%!Bot_pattern_group_name
-```
-Example to get matching named group `region`
-```
-%!region
 ```
 
 ## Recursion
@@ -277,4 +252,6 @@ you can have any number of key value pair and all key value pair will override d
 ```
 
 
+![Chatbot AI flow Diagram](https://raw.githubusercontent.com/ahmadfaizalbh/Chatbot/master/images/ChatBot%20AI.png)
 
+<!--- {% endraw %} -->
